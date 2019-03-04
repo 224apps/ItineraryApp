@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         //Feature 2
         //Feature 3
         //Feature 4
+        // Fix for version 1.1
     }
 
     override func didReceiveMemoryWarning() {
