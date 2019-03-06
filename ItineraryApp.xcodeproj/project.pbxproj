@@ -14,6 +14,9 @@
 		8D387433222DBD3800022A8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D387431222DBD3800022A8C /* LaunchScreen.storyboard */; };
 		8D38743E222DBD3800022A8C /* ItineraryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38743D222DBD3800022A8C /* ItineraryAppTests.swift */; };
 		8D387449222DBD3800022A8C /* ItineraryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D387448222DBD3800022A8C /* ItineraryAppUITests.swift */; };
+		8D4397B92230806600545978 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397B82230806600545978 /* TripModel.swift */; };
+		8D4397BB223080CA00545978 /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397BA223080CA00545978 /* TripFunctions.swift */; };
+		8D4397BE223081BB00545978 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397BD223081BB00545978 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		8D387444222DBD3800022A8C /* ItineraryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItineraryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D387448222DBD3800022A8C /* ItineraryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryAppUITests.swift; sourceTree = "<group>"; };
 		8D38744A222DBD3800022A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4397B82230806600545978 /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
+		8D4397BA223080CA00545978 /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
+		8D4397BD223081BB00545978 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		8D387427222DBD3800022A8C /* ItineraryApp */ = {
 			isa = PBXGroup;
 			children = (
+				8D4397B72230802B00545978 /* Model */,
 				8D387428222DBD3800022A8C /* AppDelegate.swift */,
 				8D38742A222DBD3800022A8C /* ViewController.swift */,
 				8D38742C222DBD3800022A8C /* Main.storyboard */,
@@ -123,6 +130,24 @@
 				8D38744A222DBD3800022A8C /* Info.plist */,
 			);
 			path = ItineraryAppUITests;
+			sourceTree = "<group>";
+		};
+		8D4397B72230802B00545978 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D4397BD223081BB00545978 /* Data.swift */,
+				8D4397BC223081AC00545978 /* Trip */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D4397BC223081AC00545978 /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				8D4397B82230806600545978 /* TripModel.swift */,
+				8D4397BA223080CA00545978 /* TripFunctions.swift */,
+			);
+			path = Trip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D38742B222DBD3800022A8C /* ViewController.swift in Sources */,
+				8D4397BE223081BB00545978 /* Data.swift in Sources */,
 				8D387429222DBD3800022A8C /* AppDelegate.swift in Sources */,
+				8D4397BB223080CA00545978 /* TripFunctions.swift in Sources */,
+				8D4397B92230806600545978 /* TripModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
