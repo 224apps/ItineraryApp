@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7573A44AD5B8CB3536D5EEF9 /* Pods_ItineraryAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A587069EC7DC451B5EABD8 /* Pods_ItineraryAppUITests.framework */; };
+		8D2D29502231C36700D8873A /* PopUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2D294F2231C36700D8873A /* PopUIView.swift */; };
+		8D2D29522231CACC00D8873A /* AppUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2D29512231CACC00D8873A /* AppUIButton.swift */; };
 		8D387429222DBD3800022A8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D387428222DBD3800022A8C /* AppDelegate.swift */; };
 		8D38742B222DBD3800022A8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38742A222DBD3800022A8C /* ViewController.swift */; };
 		8D387430222DBD3800022A8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D38742F222DBD3800022A8C /* Assets.xcassets */; };
@@ -17,12 +19,14 @@
 		8D4397B92230806600545978 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397B82230806600545978 /* TripModel.swift */; };
 		8D4397BB223080CA00545978 /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397BA223080CA00545978 /* TripFunctions.swift */; };
 		8D4397BE223081BB00545978 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397BD223081BB00545978 /* Data.swift */; };
-		8D4397C122308EB000545978 /* TripTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397C022308EB000545978 /* TripTableViewController.swift */; };
+		8D4397C122308EB000545978 /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397C022308EB000545978 /* TripViewController.swift */; };
 		8D4397C322308EBF00545978 /* TripViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4397C222308EBF00545978 /* TripViewController.storyboard */; };
 		8D4397C52230FA7B00545978 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397C42230FA7B00545978 /* TripTableViewCell.swift */; };
 		8D4397C82230FD3D00545978 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397C72230FD3D00545978 /* UIViewExtensions.swift */; };
 		8D4397CB223198A100545978 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397CA223198A100545978 /* Theme.swift */; };
 		8D4397CD223198E200545978 /* FugazOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D4397CC223198E100545978 /* FugazOne-Regular.ttf */; };
+		8D6131F22231B0A6004BE7CF /* AddTripViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6131F12231B0A6004BE7CF /* AddTripViewController.storyboard */; };
+		8D6131F62231B0F7004BE7CF /* AddTripVewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6131F52231B0F7004BE7CF /* AddTripVewController.swift */; };
 		8DA16B9A22319BB7005E9C19 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA16B9922319BB7005E9C19 /* Colors.xcassets */; };
 		A861C0E8B64037CBA4F0DEE8 /* Pods_ItineraryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA31DA90DC169AAE1694040 /* Pods_ItineraryApp.framework */; };
 		F67D97A6163774537C040CAD /* Pods_ItineraryAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B75CDF6DFA9DBDF3BE033E /* Pods_ItineraryAppTests.framework */; };
@@ -52,6 +56,8 @@
 		45B75CDF6DFA9DBDF3BE033E /* Pods_ItineraryAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItineraryAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5915302AA337626E0E0EB8A3 /* Pods-ItineraryAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ItineraryAppUITests/Pods-ItineraryAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8550685CC8F12ED69AFA5B7E /* Pods-ItineraryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryApp.release.xcconfig"; path = "Target Support Files/Pods-ItineraryApp/Pods-ItineraryApp.release.xcconfig"; sourceTree = "<group>"; };
+		8D2D294F2231C36700D8873A /* PopUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUIView.swift; sourceTree = "<group>"; };
+		8D2D29512231CACC00D8873A /* AppUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUIButton.swift; sourceTree = "<group>"; };
 		8D387425222DBD3800022A8C /* ItineraryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItineraryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D387428222DBD3800022A8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D38742A222DBD3800022A8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,12 +73,14 @@
 		8D4397B82230806600545978 /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
 		8D4397BA223080CA00545978 /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
 		8D4397BD223081BB00545978 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		8D4397C022308EB000545978 /* TripTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewController.swift; sourceTree = "<group>"; };
+		8D4397C022308EB000545978 /* TripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewController.swift; sourceTree = "<group>"; };
 		8D4397C222308EBF00545978 /* TripViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TripViewController.storyboard; sourceTree = "<group>"; };
 		8D4397C42230FA7B00545978 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
 		8D4397C72230FD3D00545978 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		8D4397CA223198A100545978 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		8D4397CC223198E100545978 /* FugazOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FugazOne-Regular.ttf"; sourceTree = "<group>"; };
+		8D6131F12231B0A6004BE7CF /* AddTripViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AddTripViewController.storyboard; sourceTree = "<group>"; };
+		8D6131F52231B0F7004BE7CF /* AddTripVewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTripVewController.swift; sourceTree = "<group>"; };
 		8DA16B9922319BB7005E9C19 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		8F51072E14063E86D4527D10 /* Pods-ItineraryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ItineraryAppTests/Pods-ItineraryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE319A9486EC0C7CA009C1D3 /* Pods-ItineraryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryApp.debug.xcconfig"; path = "Target Support Files/Pods-ItineraryApp/Pods-ItineraryApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +115,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D2D294E2231C34C00D8873A /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				8D2D294F2231C36700D8873A /* PopUIView.swift */,
+				8D2D29512231CACC00D8873A /* AppUIButton.swift */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
 		8D38741C222DBD3800022A8C = {
 			isa = PBXGroup;
 			children = (
@@ -133,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				8D4397C92231989400545978 /* Ressource */,
-				8D4397C62230FD2000545978 /* Extensions */,
 				8D4397BF22308E8F00545978 /* Views */,
 				8D4397B72230802B00545978 /* Model */,
 				8D387428222DBD3800022A8C /* AppDelegate.swift */,
@@ -184,9 +200,8 @@
 		8D4397BF22308E8F00545978 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8D4397C022308EB000545978 /* TripTableViewController.swift */,
-				8D4397C222308EBF00545978 /* TripViewController.storyboard */,
-				8D4397C42230FA7B00545978 /* TripTableViewCell.swift */,
+				8D6131F32231B0B1004BE7CF /* AddTripViewController */,
+				8D6131F42231B0D1004BE7CF /* TripViewController */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -197,16 +212,38 @@
 				8D4397C72230FD3D00545978 /* UIViewExtensions.swift */,
 			);
 			name = Extensions;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		8D4397C92231989400545978 /* Ressource */ = {
 			isa = PBXGroup;
 			children = (
+				8D2D294E2231C34C00D8873A /* CustomControls */,
 				8D4397CC223198E100545978 /* FugazOne-Regular.ttf */,
 				8D4397CA223198A100545978 /* Theme.swift */,
 				8DA16B9922319BB7005E9C19 /* Colors.xcassets */,
+				8D4397C62230FD2000545978 /* Extensions */,
 			);
 			path = Ressource;
+			sourceTree = "<group>";
+		};
+		8D6131F32231B0B1004BE7CF /* AddTripViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8D6131F12231B0A6004BE7CF /* AddTripViewController.storyboard */,
+				8D6131F52231B0F7004BE7CF /* AddTripVewController.swift */,
+			);
+			path = AddTripViewController;
+			sourceTree = "<group>";
+		};
+		8D6131F42231B0D1004BE7CF /* TripViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8D4397C022308EB000545978 /* TripViewController.swift */,
+				8D4397C222308EBF00545978 /* TripViewController.storyboard */,
+				8D4397C42230FA7B00545978 /* TripTableViewCell.swift */,
+			);
+			path = TripViewController;
 			sourceTree = "<group>";
 		};
 		94DC7FF760E79CB2EEA9F968 /* Pods */ = {
@@ -343,6 +380,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6131F22231B0A6004BE7CF /* AddTripViewController.storyboard in Resources */,
 				8DA16B9A22319BB7005E9C19 /* Colors.xcassets in Resources */,
 				8D387433222DBD3800022A8C /* LaunchScreen.storyboard in Resources */,
 				8D387430222DBD3800022A8C /* Assets.xcassets in Resources */,
@@ -453,11 +491,14 @@
 			files = (
 				8D4397CB223198A100545978 /* Theme.swift in Sources */,
 				8D38742B222DBD3800022A8C /* ViewController.swift in Sources */,
+				8D2D29502231C36700D8873A /* PopUIView.swift in Sources */,
 				8D4397C52230FA7B00545978 /* TripTableViewCell.swift in Sources */,
 				8D4397C82230FD3D00545978 /* UIViewExtensions.swift in Sources */,
 				8D4397BE223081BB00545978 /* Data.swift in Sources */,
 				8D387429222DBD3800022A8C /* AppDelegate.swift in Sources */,
-				8D4397C122308EB000545978 /* TripTableViewController.swift in Sources */,
+				8D2D29522231CACC00D8873A /* AppUIButton.swift in Sources */,
+				8D6131F62231B0F7004BE7CF /* AddTripVewController.swift in Sources */,
+				8D4397C122308EB000545978 /* TripViewController.swift in Sources */,
 				8D4397BB223080CA00545978 /* TripFunctions.swift in Sources */,
 				8D4397B92230806600545978 /* TripModel.swift in Sources */,
 			);

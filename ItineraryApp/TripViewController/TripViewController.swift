@@ -22,7 +22,7 @@ class TripViewController: UIViewController {
         TripFunctions.readTrips { [weak self] in
             self?.tableView.reloadData()
         }
-        view.backgroundColor = Theme.Background
+        view.backgroundColor = Theme.background
         addButton.createFloatingButton()
         addButton.setTitle("+", for: UIControlState())
         addButton.backgroundColor = UIColor(red: 238.0/255.0, green: 130.0/255.0, blue: 34.0/255.0, alpha:1.0)

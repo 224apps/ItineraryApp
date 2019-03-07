@@ -11,6 +11,6 @@ import UIKit
 class Theme {
      static let mainFontName = "FugazOne-Regular"
     static let Accent = UIColor(named: "Accent")
-    static let Background = UIColor(named:"Background")
-    static let Tint = UIColor(named: "Tint")
+    static let background = UIColor(named:"Background")
+    static let tintColor = UIColor(named: "Tint")
 }
