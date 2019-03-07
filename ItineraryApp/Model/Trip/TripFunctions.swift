@@ -11,6 +11,7 @@ import Foundation
 class TripFunctions {
     
     static func  createTrip(tripModel: tripModel){
+        Data.tripModels.append(tripModel)
         
     }
     
