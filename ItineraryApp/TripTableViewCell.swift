@@ -13,14 +13,14 @@ class TripTableViewCell: UITableViewCell {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var cardView: UIView!
     
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         
-        cardView.layer.shadowOffset = CGSize.zero
-        cardView.layer.shadowOpacity = 1
-        cardView.layer.shadowColor = UIColor.darkGray.cgColor
-        cardView.layer.cornerRadius = 16.0
+        cardView.addShadowAndRoundedCorners()
+        titleLabel.font = UIFont(name: Theme.mainFontName, size: 32.0)
+        cardView.backgroundColor = Theme.Accent
     }
     
     func setup(tripModel: tripModel ){
@@ -34,3 +34,6 @@ class TripTableViewCell: UITableViewCell {
     }
     
 }
+
+
+

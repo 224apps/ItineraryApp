@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7573A44AD5B8CB3536D5EEF9 /* Pods_ItineraryAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A587069EC7DC451B5EABD8 /* Pods_ItineraryAppUITests.framework */; };
 		8D387429222DBD3800022A8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D387428222DBD3800022A8C /* AppDelegate.swift */; };
 		8D38742B222DBD3800022A8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38742A222DBD3800022A8C /* ViewController.swift */; };
 		8D387430222DBD3800022A8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D38742F222DBD3800022A8C /* Assets.xcassets */; };
@@ -19,6 +20,12 @@
 		8D4397C122308EB000545978 /* TripTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397C022308EB000545978 /* TripTableViewController.swift */; };
 		8D4397C322308EBF00545978 /* TripViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4397C222308EBF00545978 /* TripViewController.storyboard */; };
 		8D4397C52230FA7B00545978 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397C42230FA7B00545978 /* TripTableViewCell.swift */; };
+		8D4397C82230FD3D00545978 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397C72230FD3D00545978 /* UIViewExtensions.swift */; };
+		8D4397CB223198A100545978 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397CA223198A100545978 /* Theme.swift */; };
+		8D4397CD223198E200545978 /* FugazOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D4397CC223198E100545978 /* FugazOne-Regular.ttf */; };
+		8DA16B9A22319BB7005E9C19 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA16B9922319BB7005E9C19 /* Colors.xcassets */; };
+		A861C0E8B64037CBA4F0DEE8 /* Pods_ItineraryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA31DA90DC169AAE1694040 /* Pods_ItineraryApp.framework */; };
+		F67D97A6163774537C040CAD /* Pods_ItineraryAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B75CDF6DFA9DBDF3BE033E /* Pods_ItineraryAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0893F11306E23F815C88EF7D /* Pods-ItineraryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryAppTests.release.xcconfig"; path = "Target Support Files/Pods-ItineraryAppTests/Pods-ItineraryAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1AA31DA90DC169AAE1694040 /* Pods_ItineraryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItineraryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A587069EC7DC451B5EABD8 /* Pods_ItineraryAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItineraryAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B75CDF6DFA9DBDF3BE033E /* Pods_ItineraryAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ItineraryAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5915302AA337626E0E0EB8A3 /* Pods-ItineraryAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ItineraryAppUITests/Pods-ItineraryAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8550685CC8F12ED69AFA5B7E /* Pods-ItineraryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryApp.release.xcconfig"; path = "Target Support Files/Pods-ItineraryApp/Pods-ItineraryApp.release.xcconfig"; sourceTree = "<group>"; };
 		8D387425222DBD3800022A8C /* ItineraryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItineraryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D387428222DBD3800022A8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D38742A222DBD3800022A8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +70,13 @@
 		8D4397C022308EB000545978 /* TripTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewController.swift; sourceTree = "<group>"; };
 		8D4397C222308EBF00545978 /* TripViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TripViewController.storyboard; sourceTree = "<group>"; };
 		8D4397C42230FA7B00545978 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		8D4397C72230FD3D00545978 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		8D4397CA223198A100545978 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8D4397CC223198E100545978 /* FugazOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FugazOne-Regular.ttf"; sourceTree = "<group>"; };
+		8DA16B9922319BB7005E9C19 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		8F51072E14063E86D4527D10 /* Pods-ItineraryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ItineraryAppTests/Pods-ItineraryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE319A9486EC0C7CA009C1D3 /* Pods-ItineraryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryApp.debug.xcconfig"; path = "Target Support Files/Pods-ItineraryApp/Pods-ItineraryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CA4940B39BBFCDD16A0308F0 /* Pods-ItineraryAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ItineraryAppUITests/Pods-ItineraryAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A861C0E8B64037CBA4F0DEE8 /* Pods_ItineraryApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67D97A6163774537C040CAD /* Pods_ItineraryAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7573A44AD5B8CB3536D5EEF9 /* Pods_ItineraryAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +114,8 @@
 				8D38743C222DBD3800022A8C /* ItineraryAppTests */,
 				8D387447222DBD3800022A8C /* ItineraryAppUITests */,
 				8D387426222DBD3800022A8C /* Products */,
+				94DC7FF760E79CB2EEA9F968 /* Pods */,
+				EB3F73D806478B0FF9264B08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +132,8 @@
 		8D387427222DBD3800022A8C /* ItineraryApp */ = {
 			isa = PBXGroup;
 			children = (
+				8D4397C92231989400545978 /* Ressource */,
+				8D4397C62230FD2000545978 /* Extensions */,
 				8D4397BF22308E8F00545978 /* Views */,
 				8D4397B72230802B00545978 /* Model */,
 				8D387428222DBD3800022A8C /* AppDelegate.swift */,
@@ -164,6 +191,47 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		8D4397C62230FD2000545978 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8D4397C72230FD3D00545978 /* UIViewExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8D4397C92231989400545978 /* Ressource */ = {
+			isa = PBXGroup;
+			children = (
+				8D4397CC223198E100545978 /* FugazOne-Regular.ttf */,
+				8D4397CA223198A100545978 /* Theme.swift */,
+				8DA16B9922319BB7005E9C19 /* Colors.xcassets */,
+			);
+			path = Ressource;
+			sourceTree = "<group>";
+		};
+		94DC7FF760E79CB2EEA9F968 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE319A9486EC0C7CA009C1D3 /* Pods-ItineraryApp.debug.xcconfig */,
+				8550685CC8F12ED69AFA5B7E /* Pods-ItineraryApp.release.xcconfig */,
+				8F51072E14063E86D4527D10 /* Pods-ItineraryAppTests.debug.xcconfig */,
+				0893F11306E23F815C88EF7D /* Pods-ItineraryAppTests.release.xcconfig */,
+				5915302AA337626E0E0EB8A3 /* Pods-ItineraryAppUITests.debug.xcconfig */,
+				CA4940B39BBFCDD16A0308F0 /* Pods-ItineraryAppUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB3F73D806478B0FF9264B08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AA31DA90DC169AAE1694040 /* Pods_ItineraryApp.framework */,
+				45B75CDF6DFA9DBDF3BE033E /* Pods_ItineraryAppTests.framework */,
+				39A587069EC7DC451B5EABD8 /* Pods_ItineraryAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D38744D222DBD3800022A8C /* Build configuration list for PBXNativeTarget "ItineraryApp" */;
 			buildPhases = (
+				BD4EBF837773C7F64D1D09C2 /* [CP] Check Pods Manifest.lock */,
 				8D387421222DBD3800022A8C /* Sources */,
 				8D387422222DBD3800022A8C /* Frameworks */,
 				8D387423222DBD3800022A8C /* Resources */,
+				80A0034CAEF7E8552B57E3C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D387450222DBD3800022A8C /* Build configuration list for PBXNativeTarget "ItineraryAppTests" */;
 			buildPhases = (
+				0FA3BFDFDF9BA23FF9899BDF /* [CP] Check Pods Manifest.lock */,
 				8D387435222DBD3800022A8C /* Sources */,
 				8D387436222DBD3800022A8C /* Frameworks */,
 				8D387437222DBD3800022A8C /* Resources */,
@@ -206,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D387453222DBD3800022A8C /* Build configuration list for PBXNativeTarget "ItineraryAppUITests" */;
 			buildPhases = (
+				1B13142B24D74A71871AF95A /* [CP] Check Pods Manifest.lock */,
 				8D387440222DBD3800022A8C /* Sources */,
 				8D387441222DBD3800022A8C /* Frameworks */,
 				8D387442222DBD3800022A8C /* Resources */,
@@ -271,8 +343,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DA16B9A22319BB7005E9C19 /* Colors.xcassets in Resources */,
 				8D387433222DBD3800022A8C /* LaunchScreen.storyboard in Resources */,
 				8D387430222DBD3800022A8C /* Assets.xcassets in Resources */,
+				8D4397CD223198E200545978 /* FugazOne-Regular.ttf in Resources */,
 				8D4397C322308EBF00545978 /* TripViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,13 +367,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FA3BFDFDF9BA23FF9899BDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ItineraryAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B13142B24D74A71871AF95A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ItineraryAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80A0034CAEF7E8552B57E3C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ItineraryApp/Pods-ItineraryApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ItineraryApp/Pods-ItineraryApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD4EBF837773C7F64D1D09C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ItineraryApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D387421222DBD3800022A8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4397CB223198A100545978 /* Theme.swift in Sources */,
 				8D38742B222DBD3800022A8C /* ViewController.swift in Sources */,
 				8D4397C52230FA7B00545978 /* TripTableViewCell.swift in Sources */,
+				8D4397C82230FD3D00545978 /* UIViewExtensions.swift in Sources */,
 				8D4397BE223081BB00545978 /* Data.swift in Sources */,
 				8D387429222DBD3800022A8C /* AppDelegate.swift in Sources */,
 				8D4397C122308EB000545978 /* TripTableViewController.swift in Sources */,
@@ -460,6 +615,7 @@
 		};
 		8D38744E222DBD3800022A8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE319A9486EC0C7CA009C1D3 /* Pods-ItineraryApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +631,7 @@
 		};
 		8D38744F222DBD3800022A8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8550685CC8F12ED69AFA5B7E /* Pods-ItineraryApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +647,7 @@
 		};
 		8D387451222DBD3800022A8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F51072E14063E86D4527D10 /* Pods-ItineraryAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +665,7 @@
 		};
 		8D387452222DBD3800022A8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0893F11306E23F815C88EF7D /* Pods-ItineraryAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +683,7 @@
 		};
 		8D387454222DBD3800022A8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5915302AA337626E0E0EB8A3 /* Pods-ItineraryAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +700,7 @@
 		};
 		8D387455222DBD3800022A8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA4940B39BBFCDD16A0308F0 /* Pods-ItineraryAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
