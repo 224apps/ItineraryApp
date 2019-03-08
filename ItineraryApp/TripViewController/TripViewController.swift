@@ -53,6 +53,29 @@ extension TripViewController: UITableViewDelegate, UITableViewDataSource {
         return 160
     }
     
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let deleteAction = UIContextualAction(style: .destructive, title: "Delete Row") { (action, view, actionPerformed:@escaping (Bool)->()) in
+            
+            
+            let alert = UIAlertController(title: "Delete trip.", message: "Are you sure, you want to delete this trip?", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action) in
+                actionPerformed(true)
+            }))
+            alert.addAction(UIAlertAction(title: "delete", style: .destructive, handler: { (action) in
+                TripFunctions.deleteTrip(indexPath: indexPath.row)
+                tableView.deleteRows(at: [indexPath], with: .automatic)
+                actionPerformed(true)
+            }))
+            self.present(alert, animated: true)
+        }
+        
+        let configuration = UISwipeActionsConfiguration(actions: [deleteAction])
+        return configuration
+    }
    
     
 }
