@@ -6,13 +6,14 @@
 //  Copyright © 2019 Abdoulaye Diallo. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class tripModel {
     var id: UUID
     var title:String!
+    var image: UIImage?
     
-    init(title:String) {
+    init(title:String, image: UIImage? = nil) {
         id = UUID()
         self.title = title
     }
