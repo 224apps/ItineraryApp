@@ -16,21 +16,22 @@ class TripViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet var helpView: UIVisualEffectView!
     var tripIndexEdit: Int?
-  let seenTripString = "seenHelpView"
-     let segueIdentifier = "addTrip"
+    let seenTripString = "seenHelpView"
+    let segueIdentifier = "addTrip"
+    let  cellDetailsSegue = "cellDetailsSegue"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-     
+        
         
         TripFunctions.readTrips { [unowned self] in
             self.tableView.reloadData()
             if Data.tripModels.count > 0 {
                 if UserDefaults.standard.bool(forKey: self.seenTripString ) == false {
                     self.view.addSubview(self.helpView)
-                   self.helpView.frame = self.view.frame
+                    self.helpView.frame = self.view.frame
                 }
             }
         }

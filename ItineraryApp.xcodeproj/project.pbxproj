@@ -10,6 +10,8 @@
 		7573A44AD5B8CB3536D5EEF9 /* Pods_ItineraryAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A587069EC7DC451B5EABD8 /* Pods_ItineraryAppUITests.framework */; };
 		8D2D29502231C36700D8873A /* PopUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2D294F2231C36700D8873A /* PopUIView.swift */; };
 		8D2D29522231CACC00D8873A /* AppUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2D29512231CACC00D8873A /* AppUIButton.swift */; };
+		8D2D29552234BC8E00D8873A /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2D29542234BC8E00D8873A /* ActivitiesViewController.swift */; };
+		8D2D29582234BCF000D8873A /* ActivitiesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D2D29572234BCF000D8873A /* ActivitiesViewController.storyboard */; };
 		8D387429222DBD3800022A8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D387428222DBD3800022A8C /* AppDelegate.swift */; };
 		8D38742B222DBD3800022A8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D38742A222DBD3800022A8C /* ViewController.swift */; };
 		8D387430222DBD3800022A8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D38742F222DBD3800022A8C /* Assets.xcassets */; };
@@ -58,6 +60,8 @@
 		8550685CC8F12ED69AFA5B7E /* Pods-ItineraryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryApp.release.xcconfig"; path = "Target Support Files/Pods-ItineraryApp/Pods-ItineraryApp.release.xcconfig"; sourceTree = "<group>"; };
 		8D2D294F2231C36700D8873A /* PopUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUIView.swift; sourceTree = "<group>"; };
 		8D2D29512231CACC00D8873A /* AppUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUIButton.swift; sourceTree = "<group>"; };
+		8D2D29542234BC8E00D8873A /* ActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		8D2D29572234BCF000D8873A /* ActivitiesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActivitiesViewController.storyboard; sourceTree = "<group>"; };
 		8D387425222DBD3800022A8C /* ItineraryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItineraryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D387428222DBD3800022A8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D38742A222DBD3800022A8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +126,15 @@
 				8D2D29512231CACC00D8873A /* AppUIButton.swift */,
 			);
 			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		8D2D29532234BC2D00D8873A /* ActivitiesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8D2D29542234BC8E00D8873A /* ActivitiesViewController.swift */,
+				8D2D29572234BCF000D8873A /* ActivitiesViewController.storyboard */,
+			);
+			path = ActivitiesViewController;
 			sourceTree = "<group>";
 		};
 		8D38741C222DBD3800022A8C = {
@@ -200,6 +213,7 @@
 		8D4397BF22308E8F00545978 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				8D2D29532234BC2D00D8873A /* ActivitiesViewController */,
 				8D6131F32231B0B1004BE7CF /* AddTripViewController */,
 				8D6131F42231B0D1004BE7CF /* TripViewController */,
 			);
@@ -383,6 +397,7 @@
 				8D6131F22231B0A6004BE7CF /* AddTripViewController.storyboard in Resources */,
 				8DA16B9A22319BB7005E9C19 /* Colors.xcassets in Resources */,
 				8D387433222DBD3800022A8C /* LaunchScreen.storyboard in Resources */,
+				8D2D29582234BCF000D8873A /* ActivitiesViewController.storyboard in Resources */,
 				8D387430222DBD3800022A8C /* Assets.xcassets in Resources */,
 				8D4397CD223198E200545978 /* FugazOne-Regular.ttf in Resources */,
 				8D4397C322308EBF00545978 /* TripViewController.storyboard in Resources */,
@@ -493,6 +508,7 @@
 				8D38742B222DBD3800022A8C /* ViewController.swift in Sources */,
 				8D2D29502231C36700D8873A /* PopUIView.swift in Sources */,
 				8D4397C52230FA7B00545978 /* TripTableViewCell.swift in Sources */,
+				8D2D29552234BC8E00D8873A /* ActivitiesViewController.swift in Sources */,
 				8D4397C82230FD3D00545978 /* UIViewExtensions.swift in Sources */,
 				8D4397BE223081BB00545978 /* Data.swift in Sources */,
 				8D387429222DBD3800022A8C /* AppDelegate.swift in Sources */,
