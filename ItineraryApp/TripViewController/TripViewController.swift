@@ -14,14 +14,25 @@ class TripViewController: UIViewController {
     
     @IBOutlet weak var addButton: UIButton!
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet var helpView: UIVisualEffectView!
     var tripIndexEdit: Int?
+  let seenTripString = "seenHelpView"
+     let segueIdentifier = "addTrip"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        TripFunctions.readTrips { [weak self] in
-            self?.tableView.reloadData()
+     
+        
+        TripFunctions.readTrips { [unowned self] in
+            self.tableView.reloadData()
+            if Data.tripModels.count > 0 {
+                if UserDefaults.standard.bool(forKey: self.seenTripString ) == false {
+                    self.view.addSubview(self.helpView)
+                   self.helpView.frame = self.view.frame
+                }
+            }
         }
         view.backgroundColor = Theme.background
         addButton.createFloatingButton()
@@ -30,12 +41,24 @@ class TripViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "addTrip" {
+        if segue.identifier == segueIdentifier {
             let popupView = segue.destination as! AddTripViewController
             popupView.tripIndexEdit = self.tripIndexEdit
             popupView.doneSaving = { [weak self] in
                 self?.tableView.reloadData()
             }
+        }
+    }
+    
+    
+    
+    @IBAction func closeHelpView(_ sender: Any) {
+        
+        UIView.animate(withDuration: 0.5, animations: {
+            self.helpView.alpha = 0
+        }) { (success) in
+            self.helpView.removeFromSuperview()
+            UserDefaults.standard.setValue(true, forKeyPath:self.seenTripString)
         }
     }
 }
@@ -63,7 +86,7 @@ extension TripViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, leadingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let edit = UIContextualAction(style: .normal, title: "Edit Trip") { (action, view, actionPerformed:(Bool)->()) in
             self.tripIndexEdit =  indexPath.row
-            self.performSegue(withIdentifier: "addTrip", sender: nil)
+            self.performSegue(withIdentifier: self.segueIdentifier, sender: nil)
             actionPerformed(true)
         }
         edit.backgroundColor = .blue
@@ -89,6 +112,6 @@ extension TripViewController: UITableViewDelegate, UITableViewDataSource {
         let configuration = UISwipeActionsConfiguration(actions: [deleteAction])
         return configuration
     }
-   
+    
     
 }
