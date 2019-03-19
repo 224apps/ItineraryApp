@@ -36,7 +36,7 @@ class TripViewController: UIViewController {
             }
         }
         view.backgroundColor = Theme.background
-        addButton.createFloatingButton()
+        addButton.createFloatingActionButton()
         addButton.setTitle("+", for: UIControlState())
         addButton.backgroundColor = UIColor(red: 238.0/255.0, green: 130.0/255.0, blue: 34.0/255.0, alpha:1.0)
     }

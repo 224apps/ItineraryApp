@@ -98,7 +98,7 @@ class AddTripViewController: UIViewController {
         if let index = tripIndexEdit {
             TripFunctions.updateTrip(at: index, title: newtripName, image:  backgroundImage.image)
         } else {
-            TripFunctions.createTrip(tripModel: tripModel(title:newtripName, image: backgroundImage.image))
+            TripFunctions.createTrip(tripModel: TripModel(title:newtripName, image: backgroundImage.image))
         }
         if let doneSaving =  doneSaving {
             doneSaving()

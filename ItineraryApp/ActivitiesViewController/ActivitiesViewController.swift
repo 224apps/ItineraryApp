@@ -10,7 +10,8 @@ import UIKit
 
 class ActivitiesViewController: UIViewController {
     
-    let CellID = "CellID"
+    let HeaderCellID = "HeaderCell"
+    let cellID = "CellID"
     
     var tripId:  UUID!
     var tripModel: TripModel?
@@ -32,7 +33,7 @@ class ActivitiesViewController: UIViewController {
             self?.tableView.reloadData()
         }
         //Store the section Header to use in the tableView
-        sectionHeaderHeight = self.tableView.dequeueReusableCell(withIdentifier: CellID)?.contentView.bounds.height ?? 0.0
+        sectionHeaderHeight = self.tableView.dequeueReusableCell(withIdentifier: HeaderCellID)?.contentView.bounds.height ?? 0.0
         
     }
     
@@ -46,26 +47,18 @@ extension  ActivitiesViewController : UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return tripModel?.dayModels.count ?? 0
     }
-    
-    //    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-    //         let title = tripModel?.dayModels[section].title ?? ""
-    //         let subtitle = tripModel?.dayModels[section].subtitle ?? ""
-    //         return "\(title)- \(subtitle)"
-    //    }
-    //
-    
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return  tripModel?.dayModels[section].activityModels.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: CellID)
-        if  cell == nil {
-            cell = UITableViewCell(style: .default, reuseIdentifier: CellID)
-        }
-        cell?.textLabel?.text =  tripModel?.dayModels[indexPath.row].title
-        return cell!
+        
+         let model =  tripModel?.dayModels[indexPath.section].activityModels[indexPath.row]
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellID)  as! AcitivityTableViewCell
+        cell.setup(model: model!)
+        return cell
     }
 }
 
@@ -74,13 +67,13 @@ extension ActivitiesViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let dayModel = tripModel?.dayModels[section]
-        let cell = tableView.dequeueReusableCell(withIdentifier: CellID ) as! HeaderTableViewCell
-        cell.setUp(model: dayModel!)
+        let cell = tableView.dequeueReusableCell(withIdentifier: HeaderCellID ) as! HeaderTableViewCell
+        cell.setup(model: dayModel!)
         return cell.contentView
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        let cell = tableView.dequeueReusableCell(withIdentifier: CellID)
+        let cell = tableView.dequeueReusableCell(withIdentifier: HeaderCellID)
          return cell?.bounds.size.height ?? 44.0
     }
 }
