@@ -33,6 +33,7 @@
 		8D64369D223FEBA00024E925 /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D64369C223FEBA00024E925 /* ActivityModel.swift */; };
 		8D6436A0223FEC730024E925 /* ActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D64369F223FEC730024E925 /* ActivityType.swift */; };
 		8D6436A2223FEDC00024E925 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6436A1223FEDC00024E925 /* MockData.swift */; };
+		8D6436A422416F270024E925 /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6436A322416F270024E925 /* HeaderTableViewCell.swift */; };
 		8DA16B9A22319BB7005E9C19 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA16B9922319BB7005E9C19 /* Colors.xcassets */; };
 		A861C0E8B64037CBA4F0DEE8 /* Pods_ItineraryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA31DA90DC169AAE1694040 /* Pods_ItineraryApp.framework */; };
 		F67D97A6163774537C040CAD /* Pods_ItineraryAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B75CDF6DFA9DBDF3BE033E /* Pods_ItineraryAppTests.framework */; };
@@ -93,6 +94,7 @@
 		8D64369C223FEBA00024E925 /* ActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
 		8D64369F223FEC730024E925 /* ActivityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityType.swift; sourceTree = "<group>"; };
 		8D6436A1223FEDC00024E925 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		8D6436A322416F270024E925 /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
 		8DA16B9922319BB7005E9C19 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		8F51072E14063E86D4527D10 /* Pods-ItineraryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ItineraryAppTests/Pods-ItineraryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE319A9486EC0C7CA009C1D3 /* Pods-ItineraryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryApp.debug.xcconfig"; path = "Target Support Files/Pods-ItineraryApp/Pods-ItineraryApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			children = (
 				8D2D29542234BC8E00D8873A /* ActivitiesViewController.swift */,
 				8D2D29572234BCF000D8873A /* ActivitiesViewController.storyboard */,
+				8D6436A322416F270024E925 /* HeaderTableViewCell.swift */,
 			);
 			path = ActivitiesViewController;
 			sourceTree = "<group>";
@@ -534,6 +537,7 @@
 				8D2D29552234BC8E00D8873A /* ActivitiesViewController.swift in Sources */,
 				8D4397C82230FD3D00545978 /* UIViewExtensions.swift in Sources */,
 				8D4397BE223081BB00545978 /* Data.swift in Sources */,
+				8D6436A422416F270024E925 /* HeaderTableViewCell.swift in Sources */,
 				8D387429222DBD3800022A8C /* AppDelegate.swift in Sources */,
 				8D2D29522231CACC00D8873A /* AppUIButton.swift in Sources */,
 				8D6131F62231B0F7004BE7CF /* AddTripViewController.swift in Sources */,
