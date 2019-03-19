@@ -22,7 +22,6 @@
 		8D4397BB223080CA00545978 /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397BA223080CA00545978 /* TripFunctions.swift */; };
 		8D4397BE223081BB00545978 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397BD223081BB00545978 /* Data.swift */; };
 		8D4397C122308EB000545978 /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397C022308EB000545978 /* TripViewController.swift */; };
-		8D4397C322308EBF00545978 /* TripViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D4397C222308EBF00545978 /* TripViewController.storyboard */; };
 		8D4397C52230FA7B00545978 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397C42230FA7B00545978 /* TripTableViewCell.swift */; };
 		8D4397CB223198A100545978 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4397CA223198A100545978 /* Theme.swift */; };
 		8D4397CD223198E200545978 /* FugazOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D4397CC223198E100545978 /* FugazOne-Regular.ttf */; };
@@ -40,6 +39,7 @@
 		8D6436B1224199EF0024E925 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6436AB224199EF0024E925 /* UITextFieldExtension.swift */; };
 		8D6436B2224199EF0024E925 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6436AC224199EF0024E925 /* UIViewControllerExtension.swift */; };
 		8D6436B3224199EF0024E925 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6436AD224199EF0024E925 /* UIViewExtension.swift */; };
+		8D6436B52241A24D0024E925 /* TripViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D6436B42241A24D0024E925 /* TripViewController.storyboard */; };
 		8DA16B9A22319BB7005E9C19 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA16B9922319BB7005E9C19 /* Colors.xcassets */; };
 		A861C0E8B64037CBA4F0DEE8 /* Pods_ItineraryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA31DA90DC169AAE1694040 /* Pods_ItineraryApp.framework */; };
 		F67D97A6163774537C040CAD /* Pods_ItineraryAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B75CDF6DFA9DBDF3BE033E /* Pods_ItineraryAppTests.framework */; };
@@ -89,7 +89,6 @@
 		8D4397BA223080CA00545978 /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
 		8D4397BD223081BB00545978 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		8D4397C022308EB000545978 /* TripViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewController.swift; sourceTree = "<group>"; };
-		8D4397C222308EBF00545978 /* TripViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TripViewController.storyboard; sourceTree = "<group>"; };
 		8D4397C42230FA7B00545978 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
 		8D4397CA223198A100545978 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		8D4397CC223198E100545978 /* FugazOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FugazOne-Regular.ttf"; sourceTree = "<group>"; };
@@ -107,6 +106,7 @@
 		8D6436AB224199EF0024E925 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		8D6436AC224199EF0024E925 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		8D6436AD224199EF0024E925 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		8D6436B42241A24D0024E925 /* TripViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TripViewController.storyboard; sourceTree = "<group>"; };
 		8DA16B9922319BB7005E9C19 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		8F51072E14063E86D4527D10 /* Pods-ItineraryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ItineraryAppTests/Pods-ItineraryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE319A9486EC0C7CA009C1D3 /* Pods-ItineraryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItineraryApp.debug.xcconfig"; path = "Target Support Files/Pods-ItineraryApp/Pods-ItineraryApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -272,7 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				8D4397C022308EB000545978 /* TripViewController.swift */,
-				8D4397C222308EBF00545978 /* TripViewController.storyboard */,
+				8D6436B42241A24D0024E925 /* TripViewController.storyboard */,
 				8D4397C42230FA7B00545978 /* TripTableViewCell.swift */,
 			);
 			path = TripViewController;
@@ -439,8 +439,8 @@
 				8D387433222DBD3800022A8C /* LaunchScreen.storyboard in Resources */,
 				8D2D29582234BCF000D8873A /* ActivitiesViewController.storyboard in Resources */,
 				8D387430222DBD3800022A8C /* Assets.xcassets in Resources */,
+				8D6436B52241A24D0024E925 /* TripViewController.storyboard in Resources */,
 				8D4397CD223198E200545978 /* FugazOne-Regular.ttf in Resources */,
-				8D4397C322308EBF00545978 /* TripViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

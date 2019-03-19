@@ -10,9 +10,6 @@ import UIKit
 
 class ActivitiesViewController: UIViewController {
     
-    let HeaderCellID = "HeaderCell"
-    let cellID = "CellID"
-    
     var tripId:  UUID!
     var tripModel: TripModel?
     var sectionHeaderHeight : CGFloat = 0.0
@@ -33,7 +30,7 @@ class ActivitiesViewController: UIViewController {
             self?.tableView.reloadData()
         }
         //Store the section Header to use in the tableView
-        sectionHeaderHeight = self.tableView.dequeueReusableCell(withIdentifier: HeaderCellID)?.contentView.bounds.height ?? 0.0
+        sectionHeaderHeight = self.tableView.dequeueReusableCell(withIdentifier: HeaderTableViewCell.identifier)?.contentView.bounds.height ?? 0.0
         
     }
     
@@ -56,7 +53,7 @@ extension  ActivitiesViewController : UITableViewDataSource {
         
          let model =  tripModel?.dayModels[indexPath.section].activityModels[indexPath.row]
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellID)  as! AcitivityTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: AcitivityTableViewCell.identifier)  as! AcitivityTableViewCell
         cell.setup(model: model!)
         return cell
     }
@@ -67,13 +64,13 @@ extension ActivitiesViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let dayModel = tripModel?.dayModels[section]
-        let cell = tableView.dequeueReusableCell(withIdentifier: HeaderCellID ) as! HeaderTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: HeaderTableViewCell.identifier ) as! HeaderTableViewCell
         cell.setup(model: dayModel!)
         return cell.contentView
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        let cell = tableView.dequeueReusableCell(withIdentifier: HeaderCellID)
+        let cell = tableView.dequeueReusableCell(withIdentifier: HeaderTableViewCell.identifier)
          return cell?.bounds.size.height ?? 44.0
     }
 }
